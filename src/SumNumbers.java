@@ -13,7 +13,7 @@ public class SumNumbers {
 
         // Use a count to iterate up to the input (sumTo), each time adding that onto sumTotal
         while (count <= sumTo) {
-            sumTotal = sumTotal + count;
+            sumTotal += count;
             count++;
         }
         System.out.println(sumTotal);
